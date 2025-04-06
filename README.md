@@ -36,19 +36,19 @@ git clone https://github.com/joelgenaro/zealthy-backend
 
      - Add a new user:
        ```http
-       POST https://zealthy-backend.onrender.com/api/users
+       POST https://zealthy-backend-int9.onrender.com/api/users
        ```
      - Get all users:
        ```http
-       GET https://zealthy-backend.onrender.com/api/users
+       GET https://zealthy-backend-int9.onrender.com/api/users
        ```
 
    - **Admin Configuration API**:
      - Get admin configuration:
        ```http
-       GET https://zealthy-backend.onrender.com/api/admin-config
+       GET https://zealthy-backend-int9.onrender.com/api/admin-config
        ```
      - Set admin configuration:
        ```http
-       POST https://zealthy-backend.onrender.com/api/admin-config
+       POST https://zealthy-backend-int9.onrender.com/api/admin-config
        ```
